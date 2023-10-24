@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.view.view.MyLayout
 import kotlinx.android.synthetic.main.view.view.priority
 import kotlinx.android.synthetic.main.view.view.title
+//nice work dude
 
 class Adapter(var data: List<cardinfo>) : RecyclerView.Adapter<Adapter.viewholder>() {
     class viewholder(itemView: View) : RecyclerView.ViewHolder(itemView) {
